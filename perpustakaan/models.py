@@ -6,7 +6,7 @@ class Kelompok(models.Model):
     keterangan = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.nama_kelas
+        return self.nama
 class Buku(models.Model):
     judul = models.CharField(max_length=100)
     pengarang = models.CharField(max_length=100)
